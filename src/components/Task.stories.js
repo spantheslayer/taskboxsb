@@ -3,7 +3,7 @@ import { Task } from "./Task";
 
 export default {
   component: Task,
-  title: "Fuck",
+  title: "storybook",
   argTypes: {
     onArchiveTask: { action: "onArchiveTask" },
     onTogglePinTask: { action: "onTogglePinTask" },
@@ -13,8 +13,8 @@ export default {
 
 const Template = (args) => <Task {...args} />;
 
-export const Sandipan = Template.bind({});
-Sandipan.args = {
+export const Default = Template.bind({});
+Default.args = {
   task: {
     id: "1",
     title: "firstpich rocks",
